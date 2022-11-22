@@ -13,7 +13,7 @@ $$s^{(l_1)} \otimes s^{(l_2)} \mapsto \bigoplus_{l = | l_1 - l_2 | }^{l_1 + l_2}
 
 where
 
-$$q_m^{(l)} = \sum_{m_1 = -l_1}^{l_1} \sum_{m_2 = -l_2}^{l_2} C_{l_1 m_1 l_2 m_2}^{l m} s_{m_1}^{l_1} s_{m_2}^{l_2}$$ 
+$$q_m^{(l)} = \sum_{m_1 = -l_1}^{l_1} \sum_{m_2 = -l_2}^{l_2} C_{l_1 m_1 l_2 m_2}^{l m} s_{m_1}^{(l_1)} s_{m_2}^{(l_2)}$$ 
 
 and $C_{l_1 m_1 l_2 m_2}^{l m}$ are the Clebsch-Gordan coefficients. 
 
@@ -21,7 +21,7 @@ and $C_{l_1 m_1 l_2 m_2}^{l m}$ are the Clebsch-Gordan coefficients.
 
 Since we know how the two steerable vector fields can be transformed using the Clebsch-Gordan transformation we can generalize it to more than two steerable vector fields by **iteratively applying the vanilla Clebsch-Gordan transformation**.
 
-Thus, we can transform the tensor product of steerable vector fields $\{ s^{l_1}, s^{l_2}, ..., s^{l_N} \}$ of rotation orders $l_1, l_2, ...$ into a direct sum of multiple other steerable vector fields:
+Thus, we can transform the tensor product of steerable vector fields $\{ s^{(l_1)}, s^{(l_2)}, ..., s^{(l_N)} \}$ of rotation orders $l_1, l_2, ...$ into a direct sum of multiple other steerable vector fields:
 
 $$s^{(l_1)} \otimes s^{(l_2)} \otimes ... \otimes s^{(l_N)} \mapsto \bigoplus_{l} \bigoplus_{c_{l}}  q^{(l, c_l)}$$
 
