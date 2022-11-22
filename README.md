@@ -50,3 +50,7 @@ cg_product = ClebschGordanProduct(rotation_orders)
 
 # carry out the transformation:
 output = cg_product(vecs)
+```
+
+Note: We assume the steerable vector fields to given in Cartesian coordinates such that they transform according to the
+real Wigner D-matrices. 
